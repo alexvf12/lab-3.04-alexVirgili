@@ -12,7 +12,7 @@ public class Customer {
     private Integer id;
     private String name;
     @Enumerated(EnumType.STRING)
-    private CustomerStatus status;
+    CustomerStatus status;
 
     public Customer() {
     }
